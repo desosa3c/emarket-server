@@ -1,0 +1,310 @@
+{
+    "users": [
+        {
+            "id": 25801,
+            "email": "joaquin@gmail.com",
+            "password": "$2b$10$IhFaS2XpJ4AlCEG/0dTkJ.PuPzQl0YbTeqtIOJJj8Q0wSIXoRd.EG",
+            "rol": "client"
+        },
+        {
+            "id": 1,
+            "email": "pulvinar.arcu@hotmail.couk",
+            "password": "SIF30QAH7MS",
+            "rol": "user"
+        },
+        {
+            "id": 2,
+            "email": "erat.vivamus@icloud.couk",
+            "password": "AYY76WBW6CM",
+            "rol": "user"
+        },
+        {
+            "id": 3,
+            "email": "diam.duis.mi@aol.com",
+            "password": "OEF11IAV6CN",
+            "rol": "user"
+        },
+        {
+            "id": 4,
+            "email": "consequat.purus@outlook.com",
+            "password": "FNM57DTB4OB",
+            "rol": "user"
+        },
+        {
+            "id": 5,
+            "email": "sed.pharetra@google.net",
+            "password": "XAC57YUT3BR",
+            "rol": "user"
+        },
+        {
+            "id": 6,
+            "email": "nunc.mauris@outlook.org",
+            "password": "HUM71WBW5OP",
+            "rol": "user"
+        },
+        {
+            "id": 7,
+            "email": "lobortis.augue@icloud.ca",
+            "password": "IGO52VNP3NB",
+            "rol": "user"
+        },
+        {
+            "id": 8,
+            "email": "nibh@hotmail.ca",
+            "password": "TSH36XBX1UJ",
+            "rol": "user"
+        },
+        {
+            "id": 9,
+            "email": "pellentesque.habitant.morbi@icloud.couk",
+            "password": "TWD15POP2UD",
+            "rol": "user"
+        },
+        {
+            "id": 10,
+            "email": "lorem@google.com",
+            "password": "ZJN12ERX1WG",
+            "rol": "user"
+        },
+        {
+            "id": 11,
+            "email": "natoque.penatibus@icloud.com",
+            "password": "RGZ36VRR4YG",
+            "rol": "user"
+        },
+        {
+            "id": 12,
+            "email": "semper@outlook.couk",
+            "password": "MJY18FEE0IH",
+            "rol": "user"
+        },
+        {
+            "id": 13,
+            "email": "magna@hotmail.edu",
+            "password": "GQQ20VJS1WQ",
+            "rol": "user"
+        },
+        {
+            "id": 14,
+            "email": "in@hotmail.edu",
+            "password": "KLB95DBL6JB",
+            "rol": "user"
+        },
+        {
+            "id": 15,
+            "email": "congue.turpis.in@google.couk",
+            "password": "RYM11QFF1YX",
+            "rol": "user"
+        },
+        {
+            "id": 16,
+            "email": "sem.elit@icloud.com",
+            "password": "BWP75LFC3BG",
+            "rol": "user"
+        },
+        {
+            "id": 17,
+            "email": "feugiat.placerat@aol.ca",
+            "password": "YWB64RIT0BR",
+            "rol": "user"
+        },
+        {
+            "id": 18,
+            "email": "odio.nam.interdum@hotmail.net",
+            "password": "QEX69TWM7YN",
+            "rol": "user"
+        },
+        {
+            "id": 19,
+            "email": "mauris.vel.turpis@google.ca",
+            "password": "QQW92WCP2EF",
+            "rol": "user"
+        },
+        {
+            "id": 20,
+            "email": "est.tempor@hotmail.com",
+            "password": "VRE78DTZ7PH",
+            "rol": "user"
+        },
+        {
+            "id": 21,
+            "email": "elementum.dui@hotmail.net",
+            "password": "DVD18JQB5HD",
+            "rol": "user"
+        },
+        {
+            "id": 22,
+            "email": "amet.dapibus.id@hotmail.com",
+            "password": "JBC75ZOQ6MV",
+            "rol": "user"
+        },
+        {
+            "id": 23,
+            "email": "ut.tincidunt.orci@google.edu",
+            "password": "MRL53WKS0PN",
+            "rol": "user"
+        },
+        {
+            "id": 24,
+            "email": "erat.eget.ipsum@google.com",
+            "password": "GLR91XHS4MY",
+            "rol": "user"
+        },
+        {
+            "id": 25,
+            "email": "aliquam.tincidunt@aol.couk",
+            "password": "HLX90XEL2YI",
+            "rol": "user"
+        },
+        {
+            "id": 26,
+            "email": "in.magna@google.edu",
+            "password": "QYW72UFX2FL",
+            "rol": "user"
+        },
+        {
+            "id": 27,
+            "email": "nunc.quisque@hotmail.edu",
+            "password": "VTI91XOM0PM",
+            "rol": "user"
+        },
+        {
+            "id": 28,
+            "email": "arcu@google.net",
+            "password": "RFX12YYM8CB",
+            "rol": "user"
+        },
+        {
+            "id": 29,
+            "email": "interdum.sed@icloud.couk",
+            "password": "GSL88IVU4DO",
+            "rol": "user"
+        },
+        {
+            "id": 30,
+            "email": "nec.euismod@aol.edu",
+            "password": "NHS62JTD1GA",
+            "rol": "user"
+        },
+        {
+            "id": 31,
+            "email": "sagittis@outlook.com",
+            "password": "WTN26SOB3YC",
+            "rol": "user"
+        },
+        {
+            "id": 32,
+            "email": "amet.consectetuer@google.com",
+            "password": "CHX58ZRE4UK",
+            "rol": "user"
+        },
+        {
+            "id": 33,
+            "email": "vitae.sodales@hotmail.couk",
+            "password": "LCN57HOT8VK",
+            "rol": "user"
+        },
+        {
+            "id": 34,
+            "email": "vehicula.risus.nulla@aol.edu",
+            "password": "NWM43BJO8WE",
+            "rol": "user"
+        },
+        {
+            "id": 35,
+            "email": "a.scelerisque@hotmail.com",
+            "password": "SYH43GCK4RI",
+            "rol": "user"
+        },
+        {
+            "id": 36,
+            "email": "iaculis@icloud.com",
+            "password": "BJS24VWR8PV",
+            "rol": "user"
+        },
+        {
+            "id": 37,
+            "email": "faucibus.ut.nulla@icloud.com",
+            "password": "YYK11TVJ0FZ",
+            "rol": "user"
+        },
+        {
+            "id": 38,
+            "email": "non.lacinia.at@aol.couk",
+            "password": "IUJ71RRO5WI",
+            "rol": "user"
+        },
+        {
+            "id": 39,
+            "email": "condimentum.eget.volutpat@icloud.org",
+            "password": "DCY07GGS7DM",
+            "rol": "user"
+        },
+        {
+            "id": 40,
+            "email": "velit.sed@outlook.org",
+            "password": "FXC88KRO0WP",
+            "rol": "user"
+        },
+        {
+            "id": 41,
+            "email": "euismod.ac@icloud.net",
+            "password": "XRS85SJT3XF",
+            "rol": "user"
+        },
+        {
+            "id": 42,
+            "email": "taciti.sociosqu.ad@outlook.edu",
+            "password": "LOK25DTQ5XT",
+            "rol": "user"
+        },
+        {
+            "id": 43,
+            "email": "a.purus@hotmail.ca",
+            "password": "GDY49JNS0CD",
+            "rol": "user"
+        },
+        {
+            "id": 44,
+            "email": "molestie@hotmail.net",
+            "password": "WOX71BXM3BG",
+            "rol": "user"
+        },
+        {
+            "id": 45,
+            "email": "scelerisque.scelerisque@icloud.org",
+            "password": "YSI63BFQ2GJ",
+            "rol": "user"
+        },
+        {
+            "id": 46,
+            "email": "mauris.sit@outlook.couk",
+            "password": "NKL68RXY9ME",
+            "rol": "user"
+        },
+        {
+            "id": 47,
+            "email": "aliquam@google.ca",
+            "password": "QXM10EAS5BQ",
+            "rol": "user"
+        },
+        {
+            "id": 48,
+            "email": "pellentesque.tincidunt@aol.ca",
+            "password": "FZO72EEI4RL",
+            "rol": "user"
+        },
+        {
+            "id": 49,
+            "email": "dui.cum@hotmail.edu",
+            "password": "HYA96YXM1WB",
+            "rol": "user"
+        },
+        {
+            "id": 50,
+            "email": "erat.sed.nunc@hotmail.couk",
+            "password": "QQJ81DNC1HZ",
+            "rol": "user"
+        }
+    ]
+}
