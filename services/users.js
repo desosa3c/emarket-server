@@ -24,7 +24,7 @@ export const addUser = async (email, plainPassword) => {
     //Add user.
     const newUser = {
         id: data.users.length + 1,
-        email: email ? email.toLowerCase() : null,
+        email: email.toLowerCase(),
         password,
         rol: 'client'
     };
@@ -50,9 +50,9 @@ export const loginUser = async (email, password) => {
     const data = JSON.parse(rawData);
 
     //Busco al usuario en base al email.
-    const user = data.users.find((item) => item.email === email);
+    const user = data.users.find((item) => item.email === email.toLowerCase());
     if (!user) {
-        return 'El usuario ha sido encontrado.' + user;
+        return 'El usuario no ha sido encontrado.';
     };
 
     //Verifico el password.
@@ -65,7 +65,7 @@ export const loginUser = async (email, password) => {
 
     return {
         result: true,
-        msg: 'asdasd',
+        msg: 'Bienvenido! Este es tu token.',
         token
     };
 

@@ -308,14 +308,8 @@
     },
     {
       "id": 52,
-      "email": null,
-      "password": "$2b$10$mBqCQ54mjKmNS/3kufD4IuPJYt5vYcVHsYv7xcFHNAydvxtGJeMQa",
-      "rol": "client"
-    },
-    {
-      "id": 53,
-      "email": null,
-      "password": "$2b$10$FLENkTOA5t55JX8JWUx9Zej/sKl6kChvOoSVzH1jEbaZ4BjJKDnu.",
+      "email": "marcelo@gmail.com",
+      "password": "$2b$10$wfhGJZRyxr07bE66lEJszuW9cxoNindAQlfVocxpiuaeDoAl/upnG",
       "rol": "client"
     }
   ]

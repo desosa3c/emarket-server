@@ -54,8 +54,8 @@ app.get('/user_cart', verifyToken, (req, res) => {
 });
 
 app.post('/register', async (req, res) => {
-    const { username, password } = req.body
-    const user = await addUser(username, password)
+    const { email, password } = req.body
+    const user = await addUser(email, password)
     res.send(user)
 });
 
