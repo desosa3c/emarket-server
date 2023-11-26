@@ -1,31 +1,60 @@
-import bcrypt from "bcrypt"
-import jwt from "jsonwebtoken"
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import fs from "fs/promises";
 
-export const addUser = async (usename, plainPassword) => {
+const users_file = './data/users.js';
 
-    // const password = bcrypt.hashSync(plainPassword, 10);
+export const addUser = async (email, plainPassword) => {
+
+    //Leer users.json.
+    const rawData = await fs.readFile(users_file);
+    const data = JSON.parse(rawData);
+
+    //Chequeo si el usuario ya existe.
+    const existingUser = data.users.find((user) => user.email === email);
+    if (existingUser) {
+        return 'El usuario ya existe.';
+    };
+
+    //Hash del password.
+    const password = bcrypt.hashSync(plainPassword, 10);
     // console.log(password)
-    return 'asdasdSA'
-}
+
+    //Add user.
+    const newUser = {
+        id: data.users.length + 1,
+        email: email.toLowerCase(),
+        password,
+        rol: 'client'
+    };
+
+    data.users.push(newUser);
+
+    //Actualizo los cambios en users.json.
+    await fs.writeFile(users_file,
+        JSON.stringify(data, null, 2));
+
+    return 'Usuario creado.';
+
+};
 
 export const loginUser = async (email, password) => {
 
-    // // Leer archivo users.json
-    // // todo el archivo users.js
-    // const data = {users: []}
+    //Leer archivo users.json.
+    const rawData = await fs.readFile(users_file);
+    const data = JSON.parse(rawData);
 
-    // const users = data.users
+    //Busco al usuario en base al email.
+    const user = data.users.find((item) => item.email === email);
+    if (!user) {
+        return 'El usuario no ha sido encontrado.';
+    };
 
-    // // Buscar el usuario en base al correo -> user
-    // // Convertir todo a minusculas
-    // const user = 'asd'
-
-
-    // if(!user){
-    //     return 'El usuario no existe en la base de datos'
-    // }
-    // // dbPassword = user.password (password Encryptada de la base)
-    // const checkPassword = bcrypt.compareSync(password, dbPassword)
+    //Verifico el password.
+    const checkPassword = await bcrypt.compare(password, user.password);
+    if (!checkPassword) {
+        return 'Contraseña incorrecta';
+    };
 
     const token = jwt.sign({ email: email, userId: 25801 }, 'HOLA123', { expiresIn: '2h' })
 
@@ -33,10 +62,10 @@ export const loginUser = async (email, password) => {
         result: true,
         msg: 'asdasd',
         token
-    }
+    };
 
-    return {
-        result: true,
-        msg: 'El usuario no existe en el sistema',
-    }
-}
+    // return {
+    //     result: true,
+    //     msg: 'El usuario no existe en el sistema',
+    // }
+};

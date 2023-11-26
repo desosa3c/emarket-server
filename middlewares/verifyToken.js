@@ -10,7 +10,7 @@ export function verifyToken(req, res, next) {
     jwt.verify(token, 'HOLA123', (err, decoded) => {
         if (err) {
             return res.status(401).json({ message: 'Failed to authenticate token' });
-        }
+        };
 
         req.body.decoded = decoded;
         next();

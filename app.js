@@ -57,13 +57,13 @@ app.post('/register', async (req, res) => {
     const { username, password } = req.body
     const user = await addUser(username, password)
     res.send(user)
-})
+});
 
 app.post('/login', async (req, res) => {
     const { email, password } = req.body
     const response = await loginUser(email, password)
     res.send(response)
-})
+});
 
 
 app.listen(port, () => {
